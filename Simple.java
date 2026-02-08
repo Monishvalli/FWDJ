@@ -7,7 +7,13 @@ class Simple {
         p=sc.nextInt();
         n=sc.nextInt();
         r=sc.nextInt();
-        s=
+        s=p*n*r/100;
+        System.out.println("Simple Interest is "+s);
+    }
+    public static void main(String args[]){
+        Simple sim= new Simple();
+        System.out.println("Enter principal, time and rate:");
+        sim.Cal();
     }
     
 }
