@@ -18,6 +18,7 @@ class Odd {
     
     public static void main(String args[]){
         Odd o= new Odd();
+        //added
         o.input();
     }
 }
